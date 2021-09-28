@@ -1,0 +1,64 @@
+body {
+    background-image: url("img/fone.jpg");
+    background-size: 100%;
+    
+}
+.container{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    /* height: 260px; */
+    height: 100px;
+    border: 2px solid salmon;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px LightSalmon;
+    user-select: none;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.header {
+    padding: 10px;
+    color: IndianRed;
+    font-size: 22px;
+}
+.level {
+    
+}
+.level button {
+    background-color: IndianRed;
+    color: white; 
+}
+.level button:hover {
+    background-color: salmon;
+}
+.task{
+    display: none;
+    padding: 10px;
+}
+.task-level {
+    padding: 5px;
+    color: IndianRed;
+}
+.task-example {
+    padding: 25px;
+}
+.task-answer button{
+    background-color: IndianRed;
+    color: white; 
+    width: 50px;
+}
+.task-answer button:hover {
+    background-color: salmon;
+}
+.result{
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid salmon;
+    width: 210px;
+    height: 30px;
+    padding-top: 5px;
+    color: DarkRed;
+    display: none;
+}
+
